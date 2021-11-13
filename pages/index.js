@@ -1,37 +1,18 @@
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function Home() {
   return (
-    <div className="header">
-      <div className="flex mx-auto p-1 bg-gradient-to-b from-gray-800 to-gray-700">
-        <h1 className="text-white ml-4">Kliwon Night</h1>
-        <div className="flex absolute right-8">
-          <div className="flex ml-6">
-            <Link href="/">
-              <a className="text-white">Home</a>
-            </Link>
-          </div>
-          <div className="flex ml-4">
-            <Link href="/blog">
-              <a className="text-white">Blog</a>
-            </Link>
-          </div>
-
-          <div className="flex ml-4">
-            <Link href="shop">
-              <a className="text-white">Shop</a>
-            </Link>
-          </div>
-          <div className="flex ml-4">
-            <Link href="/event">
-              <a className="text-white">Event</a>
-            </Link>
+    <div className="bg-gradient-to-t from-gray-500 to-gray-700 min-h-screed">
+      <nav>
+        <div className="container mx-auto">
+          <div className="flex">
+            <div className="w-4/12">Kliwon Night</div>
+            <div className="w-6/12">Nav</div>
+            <div className="w-2/12">Search</div>
           </div>
         </div>
-      </div>
-      <div className="hero">
-        <div className="bg-gray-300"></div>
-      </div>
+      </nav>
     </div>
   );
 }
