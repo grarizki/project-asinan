@@ -1,5 +1,6 @@
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from 'next/image';
+
+import logo from '../assets/Logo.png';
 
 export default function Home() {
   return (
@@ -7,12 +8,15 @@ export default function Home() {
       <nav>
         <div className="container mx-auto">
           <div className="flex">
-            <div className="w-4/12 px-2">Kliwon Night</div>
+            {/* <Image src={logo} alt="logo"></Image> */}
+            <a href="#" className="w-4/12 px-2 hover:underline font-medium">
+              Kliwon Night
+            </a>
             <div className="w-6/12">
               <div className="space-x-12 flex items-center">Search</div>
             </div>
             <div className="w-2/12">
-              <ul className="flex space-x-4">
+              <ul className="flex space-x-6">
                 <li>
                   <a href="#" className="hover:underline">
                     Ghosts
