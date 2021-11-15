@@ -17,6 +17,8 @@ module.exports = {
           DEFAULT: '#000',
           dark: '#2A2A2A',
         },
+        warmGray: colors.warmGray,
+        trueGray: colors.trueGray,
       },
     },
     variants: {

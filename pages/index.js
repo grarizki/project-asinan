@@ -1,5 +1,4 @@
 import Image from 'next/image';
-
 import logo from '../assets/Logo.png';
 
 export default function Home() {
@@ -9,7 +8,7 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="flex items-center">
             <a href="#" className="w-4/12 flex items-center">
-              <div className="w-10 h-10 bg-gray-500 rounded flex items-center justify-center mr-4 shadow-2xl">
+              <div className="w-10 h-10 bg-trueGray-700 rounded flex items-center justify-center mr-4 shadow-2xl">
                 KN
               </div>
               Kliwon Night
