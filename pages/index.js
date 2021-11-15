@@ -4,17 +4,17 @@ import logo from '../assets/Logo.png';
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-t from-gray-500 to-gray-700 min-h-screen text-white">
+    <div className="bg-gradient-to-t from-black-dark to-black-light min-h-screen text-white">
       <nav className="py-3 px-3">
         <div className="container mx-auto">
           <div className="flex items-center">
-            <div className="w-4/12 flex items-center">
+            <a href="#" className="w-4/12 flex items-center">
               <div className="w-10 h-10 bg-gray-500 rounded flex items-center justify-center mr-4 shadow-2xl">
                 KN
               </div>
               Kliwon Night
-            </div>
-            <div className="w-8/12">Search</div>
+            </a>
+            <div className="w-8/12 items-center justify-center">Search</div>
             <div className="w-2/12">
               <ul className="flex space-x-5">
                 <li>
