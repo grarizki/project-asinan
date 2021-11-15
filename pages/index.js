@@ -5,18 +5,18 @@ import logo from '../assets/Logo.png';
 export default function Home() {
   return (
     <div className="bg-gradient-to-t from-gray-500 to-gray-700 min-h-screen text-white">
-      <nav>
+      <nav className="py-3 px-3">
         <div className="container mx-auto">
-          <div className="flex">
-            {/* <Image src={logo} alt="logo"></Image> */}
-            <a href="#" className="w-4/12 px-2 hover:underline font-medium">
+          <div className="flex items-center">
+            <div className="w-4/12 flex items-center">
+              <div className="w-10 h-10 bg-gray-500 rounded flex items-center justify-center mr-4 shadow-2xl">
+                KN
+              </div>
               Kliwon Night
-            </a>
-            <div className="w-6/12">
-              <div className="space-x-12 flex items-center">Search</div>
             </div>
+            <div className="w-8/12">Search</div>
             <div className="w-2/12">
-              <ul className="flex space-x-6">
+              <ul className="flex space-x-5">
                 <li>
                   <a href="#" className="hover:underline">
                     Ghosts
@@ -24,7 +24,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a href="#" className="hover:underline">
-                    Articles
+                    Blog
                   </a>
                 </li>
                 <li>
