@@ -13,7 +13,9 @@ export default function Home() {
               </div>
               Kliwon Night
             </a>
-            <div className="w-8/12 items-center justify-center">Search</div>
+            <div className="w-8/12 items-center justify-center">
+              <input className="text bg-trueGray-500 py-1 px-3 rounded"/>
+            </div>
             <div className="w-2/12">
               <ul className="flex space-x-5">
                 <li>
