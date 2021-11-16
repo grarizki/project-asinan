@@ -8,13 +8,16 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="flex items-center">
             <a href="#" className="w-6/12 flex items-center">
-              <div className="w-10 h-10 bg-trueGray-700 rounded flex items-center justify-center mr-4 shadow-2xl">
+              <div className="w-10 h-10 bg-gradient-to-t from-red-800 to-red-600 rounded flex items-center justify-center mr-4 shadow-2xl">
                 KN
               </div>
               Kliwon Night
             </a>
             <div className="w-8/12 items-center justify-center">
-              <input className="text bg-trueGray-500 py-1 px-3 rounded"/>
+              <input
+                className="text bg-trueGray-500 py-1 px-3 rounded-full bg-search"
+                placeholder="Search"
+              />
             </div>
             <div className="w-2/12">
               <ul className="flex space-x-5">
