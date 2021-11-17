@@ -23,7 +23,7 @@ export default function Home() {
               />
             </div>
             <div className="w-4/12">
-              <ul className="flex space-x-5">
+              <ul className="flex space-x-5 ml-12">
                 <li>
                   <a href="#" className="hover:underline">
                     Ghosts
@@ -43,10 +43,23 @@ export default function Home() {
                   <a href="#" className="hover:underline">
                     Event
                   </a>
-                  <ul className="absolute">
-                    <li>International</li>
-                    <li>Indonesia</li>
-                  </ul>
+                  {dropdown && (
+                    <ul className="absolute bg-trueGray-700 shadow-2xl">
+                      <li>
+                        <a
+                          href=""
+                          className="flex px-2 py-1 border-b border-white/10"
+                        >
+                          Indonesia
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" className="flex px-2 py-1">
+                          International
+                        </a>
+                      </li>
+                    </ul>
+                  )}
                 </li>
               </ul>
             </div>
