@@ -34,6 +34,4 @@ Execute the project
 
 ```bash
 yarn dev
-# or
-npm run dev
 ```
